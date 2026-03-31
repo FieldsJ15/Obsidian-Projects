@@ -78,10 +78,44 @@ AI projects/
 
 ---
 
+## Folder Structure (Full)
+
+```
+AI projects/
+├── CLAUDE.md
+├── _context/          ← goals, projects, architecture
+├── _commands/         ← all slash commands
+├── _skills/           ← reusable workflows
+├── _sessions/         ← end-of-session handover recaps
+├── _archive/          ← archived projects/files
+├── Sessions/          ← planning & brainstorming briefs (by project)
+│   ├── MLC-Sim/
+│   └── Biomedical/
+├── Guides/            ← technical guides for things built (by project)
+├── Knowledge/         ← knowledge graph (topic notes + repos)
+├── Writing/           ← essays, articles, notes
+│   ├── Essays/
+│   ├── Articles/
+│   └── Notes/
+├── Dashboard/         ← daily dashboard + vault index
+│   ├── daily.md
+│   └── vault-index.md
+├── Multi-Leaf Colimator/  ← code project (own git repo)
+├── Docs Texto/
+├── Projetos AI/
+└── First Vault/
+```
+
 ## Available Commands
 
-- `/handover` — Summarize session and save recap to `_sessions/`
-- `/weekly-update` — Review week, archive old files, update GitHub
+| Command | What it does |
+|---------|-------------|
+| `/brief` | End of planning session → save brief to `Sessions/[project]/` |
+| `/guide` | End of building session → save technical guide to `Guides/[project]/` |
+| `/daily` | Regenerate daily dashboard at `Dashboard/daily.md` |
+| `/index` | Generate vault file index at `Dashboard/vault-index.md` |
+| `/handover` | End of any session → save recap to `_sessions/` |
+| `/weekly-update` | Weekly maintenance → archive, update context, prep next week |
 
 ---
 

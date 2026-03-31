@@ -11,10 +11,15 @@
             "id": "9965257a9708f508",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "First Vault/.obsidian/workspace.json",
+                "bFile": "First Vault/.obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Index)"
             }
           }
         ]
