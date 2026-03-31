@@ -39,6 +39,12 @@
 - [[MLC-Sim]]
 - [[AI-File-System]]
 
+## GitHub Repos
+- [[Repos-Index]] ← start here
+  - [[MNE-Python]], [[Braindecode]], [[MOABB]], [[YASA]]
+  - [[nnU-Net]], [[MONAI]], [[TotalSegmentator]], [[MedSAM]]
+  - [[claude-code-terminal]], [[obsidian-agent-client]], [[Fabric]]
+
 ---
 
 *Last updated: 2026-03-31*
