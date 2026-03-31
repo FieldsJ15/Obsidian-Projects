@@ -1,9 +1,23 @@
-# Obsidian
+# ============================================================
+# OBSIDIAN-PROJECTS VAULT — .gitignore
+# Rule: this repo tracks notes, context and commands only.
+# Code projects have their own separate repos.
+# ============================================================
+
+# --- Obsidian ---
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .trash/
 
-# Python
+# --- Code project folders (own repos) ---
+# Keep only CLAUDE.md from each — the rest lives in their own repo
+Multi-Leaf Colimator/*
+!Multi-Leaf Colimator/CLAUDE.md
+
+# Local only — not worth a separate repo yet
+Docs Texto/
+
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
@@ -13,22 +27,29 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Environment
+# --- Node ---
+node_modules/
+**/node_modules/
+dist/
+build/
+
+# --- Environment ---
 .env
 *.env.local
 
-# OS
+# --- OS ---
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Temp files
+# --- Temp / output ---
 *.tmp
 *.temp
 *.log
-
-# Large data files (keep code, not data)
 *.mat
 data/
 demo_output/
 demo_run/
+out/
+results/
+screenshots/
