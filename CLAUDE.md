@@ -7,11 +7,34 @@ You are working inside João's personal AI-augmented file system. This vault is 
 
 ---
 
+## CLAUDE.md Hierarchy
+
+Claude Code reads CLAUDE.md files at every directory level automatically.
+This means instructions stack: root → project folder → subfolder.
+
+```
+AI projects/
+├── CLAUDE.md                  ← YOU ARE HERE: global rules for the whole vault
+│
+├── Agents-Tribunal/
+│   └── CLAUDE.md              ← Project-specific: MCP server, agents, PDF processing
+│
+├── Multi-Leaf Colimator/
+│   └── CLAUDE.md              ← Project-specific: MLC sim, FastAPI + React, IEC 61217
+│
+└── [any new project]/
+    └── CLAUDE.md              ← Create one for every project
+```
+
+**Rule:** When working inside a project folder, Claude reads both this file AND the project's own CLAUDE.md. The project CLAUDE.md overrides or extends global rules.
+
+---
+
 ## Folder Structure
 
 ```
 AI projects/
-├── CLAUDE.md                  ← You are here (system instructions)
+├── CLAUDE.md                  ← Global system instructions (this file)
 ├── .gitignore
 ├── _context/                  ← Key context files (read these first)
 │   ├── architecture.md        ← Full system architecture + change log
@@ -24,11 +47,11 @@ AI projects/
 │   └── skill-inventory.md
 ├── _sessions/                 ← Session recaps saved by /handover
 ├── _archive/                  ← Old files moved here (never delete)
-├── Projects/                  ← Active project folders
-│   ├── Agents-Tribunal/
-│   ├── Multi-Leaf-Colimator/
-│   └── ...
-└── First Vault/               ← Obsidian vault root (synced via obsidian-git)
+├── Agents-Tribunal/           ← Project: MCP agent for medical PDF processing
+├── Multi-Leaf Colimator/      ← Project: Radiotherapy MLC simulator
+├── Docs Texto/                ← Misc docs and smaller experiments
+├── Projetos AI/               ← Other AI project notes
+└── First Vault/               ← Original Obsidian vault
 ```
 
 ---

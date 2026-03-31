@@ -60,6 +60,17 @@ AI projects/                        ← Root vault (Obsidian + Claude Code)
 
 ## Changelog
 
+### 2026-03-31 — Archived Agents-Tribunal
+- Moved `Agents-Tribunal/` → `_archive/Agents-Tribunal/`
+- Reason: built for Cursor, outdated docs, concept superseded. Core `server.py` preserved.
+- Updated `_context/projects.md` accordingly
+
+### 2026-03-31 — Hierarchical CLAUDE.md Structure
+- Added project-level `CLAUDE.md` to `Agents-Tribunal/` and `Multi-Leaf Colimator/`
+- Updated root `CLAUDE.md` to document the hierarchy (root → project → subfolder)
+- Rule: every new project folder gets its own `CLAUDE.md`
+- Claude Code auto-reads all CLAUDE.md files in the path — instructions stack
+
 ### 2026-03-31 — Initial System Setup
 - Created full folder scaffold: `_context/`, `_commands/`, `_skills/`, `_sessions/`, `_archive/`, `Projects/`
 - Created `CLAUDE.md` with system instructions

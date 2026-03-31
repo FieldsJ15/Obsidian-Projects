@@ -7,12 +7,6 @@
 
 ## Active Projects
 
-### Agents-Tribunal
-- **Path:** `Projects/Agents-Tribunal/`
-- **Status:** 🔄 In progress
-- **What:** MCP-powered agent for processing legal/medical documents (radioterapia). Uses Google Cloud + Gemini.
-- **Stack:** Python, MCP server (`server.py`), GCP
-- **Key file:** `COMECE_AQUI.md`
 
 ### Multi-Leaf Colimator
 - **Path:** `Projects/Multi-Leaf-Colimator/`
@@ -31,7 +25,11 @@
 
 ## Archive
 
-<!-- Move completed/inactive projects here with completion date -->
+### Agents-Tribunal *(archived 2026-03-31)*
+- **Path:** `_archive/Agents-Tribunal/`
+- **What:** MCP server (`server.py`) for processing biomedical PDFs into Jupyter notebooks via a multi-agent tribunal (Observer → Clínico → Engenheiro). Built for Cursor IDE.
+- **Why archived:** Built for Cursor, excessive doc bloat, concept is superseded by better tools. Core `server.py` is clean and reusable if ever needed.
+- **Worth revisiting?** Yes — or find a better open-source alternative on GitHub.
 
 ---
 

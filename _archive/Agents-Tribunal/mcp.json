@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Biomed-Slide-Agent": {
+      "command": "C:\\Users\\joaop\\Desktop\\Cursor Projects\\Agents-Tribunal\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\joaop\\Desktop\\Cursor Projects\\Agents-Tribunal\\server.py"]
+    }
+  }
+}

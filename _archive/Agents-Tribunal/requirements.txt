@@ -1,0 +1,12 @@
+mcp[cli]
+pdf2image
+Pillow
+nbformat
+requests
+PyMuPDF
+google-generativeai
+numpy
+scipy
+matplotlib
+
+

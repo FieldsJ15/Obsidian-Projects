@@ -1,0 +1,172 @@
+# 🚀 COMO USAR AGORA - Passo a Passo Simples
+
+## 📍 ONDE COLOCAR O COMANDO
+
+1. **Abre o Composer do Cursor:**
+   - Pressiona `Ctrl + I` (ou `Cmd + I` no Mac)
+   - Isto abre a janela do Composer no Cursor
+
+2. **Copia o comando completo:**
+   - Abre o ficheiro `COMANDO_FINAL_RADIOTERAPIA.txt`
+   - Seleciona TUDO (`Ctrl + A`)
+   - Copia (`Ctrl + C`)
+
+3. **Cola no Composer:**
+   - Clica na caixa de texto do Composer
+   - Cola (`Ctrl + V`)
+   - Pressiona Enter ou clica em "Send"
+
+---
+
+## 📋 COMANDO COMPLETO (Copia Isto)
+
+```
+Processa COMPLETAMENTE os dois PDFs de Radioterapia:
+
+1. 'C:\Users\joaop\Desktop\Física Médica\Notebook RadioTerapia e Série 6\Serie5 - RT.pdf'
+2. 'C:\Users\joaop\Desktop\Física Médica\Notebook RadioTerapia e Série 6\FMDT_6_RT_COMPLETA2526 (1).pdf'
+
+REQUISITOS COMPLETOS:
+
+Para cada PDF, faz o seguinte:
+
+1. VALIDAÇÃO:
+   - Usa inspect_pdf_metadata para verificar cada PDF
+   - Confirma o número total de páginas
+
+2. PROCESSAMENTO COMPLETO DE CADA PÁGINA:
+   - Usa process_slide_for_vision para converter cada página em imagem de alta resolução
+   - Analisa cada imagem com o Tribunal Multi-Passagem (Observer → Clínico → Engenheiro, múltiplas iterações)
+   - Extrai e explica TODAS as equações de física em detalhe
+   - Identifica e explica TODOS os gráficos, tabelas, diagramas e esquemas
+   - Se houver exercícios, identifica-os claramente
+
+3. ANÁLISE PROFUNDA:
+   - OBSERVER: Descreve TUDO o que vê (texto, gráficos, tabelas, equações, diagramas, ilustrações)
+   - CLÍNICO: Interpreta em contexto de radioterapia clínica:
+     * Aplicações clínicas de cada conceito
+     * Guidelines de radioterapia relevantes
+     * Implicações para pacientes
+     * Protocolos de tratamento
+   - ENGENHEIRO: Explica em profundidade:
+     * Física e matemática por trás de cada conceito
+     * Instrumentação e tecnologia
+     * Modelos e cálculos passo a passo
+     * Simulações e visualizações
+
+4. INFORMAÇÕES EXTRAS E PROFUNDIDADE:
+   - Para CADA termo/conceito importante mencionado:
+     * Explica o que é em detalhe
+     * Explica termos relacionados e associados
+     * Busca informações adicionais relevantes (PubMed quando disponível)
+     * Adiciona contexto histórico e desenvolvimento
+     * Correlaciona com outros conceitos nos slides
+   - Para CADA equação:
+     * Explica cada variável em detalhe
+     * Explica o significado físico
+     * Fornece exemplos numéricos
+     * Mostra aplicações práticas
+   - Para CADA gráfico/tabela:
+     * Explica o que mostra
+     * Interpreta os dados
+     * Explica tendências e padrões
+     * Adiciona contexto clínico
+
+5. EXERCÍCIOS E RESOLUÇÕES:
+   - Se houver exercícios no PDF:
+     * Identifica cada exercício claramente
+     * Inclui a imagem do enunciado
+     * Resolve passo a passo com explicações detalhadas
+     * Explica a física/matemática por trás de cada passo
+     * Fornece código Python quando aplicável para simulações
+     * Adiciona comentários explicativos no código
+
+6. CÓDIGO PYTHON E SIMULAÇÕES:
+   - Para conceitos que podem ser simulados:
+     * Cria células de código Python executáveis
+     * Usa numpy, scipy, matplotlib para visualizações
+     * Adiciona comentários detalhados explicando cada linha
+     * Cria gráficos interativos quando relevante
+     * Simula cenários clínicos quando aplicável
+
+7. REFERÊNCIAS E LITERATURA:
+   - Busca artigos PubMed relevantes para cada tópico principal
+   - Adiciona referências a guidelines oficiais
+   - Inclui links para recursos adicionais
+   - Cita fontes de forma adequada
+
+8. ORGANIZAÇÃO DO NOTEBOOK:
+   - Cria o notebook 'Radioterapia_Completo_Expert.ipynb'
+   - Organiza por:
+     * PDF de origem (FMDT_6 primeiro, depois Serie5)
+     * Tema/conceito dentro de cada PDF
+     * Sequência lógica de aprendizagem
+   - Para cada slide, inclui:
+     * Imagem em alta resolução do slide
+     * Análise visual completa (Observer)
+     * Contexto biomédico detalhado (Clínico + Engenheiro)
+     * Explicações profundas de física e cálculos
+     * Comentários inline explicando cada elemento visual
+     * Termos explicados em detalhe
+     * Informações extras e correlações
+     * Referências e links relevantes
+     * Código Python quando aplicável
+   - Se houver exercícios:
+     * Secção dedicada para cada exercício
+     * Imagem do enunciado
+     * Resolução passo a passo
+     * Código Python se aplicável
+
+9. QUALIDADE E PROFUNDIDADE:
+   - O notebook deve ser MUITO mais completo que os slides originais
+   - Explica TUDO em detalhe, não apenas resume
+   - Profundidade em física, medicina e engenharia
+   - Correlaciona conceitos entre diferentes slides
+   - Adiciona contexto e aplicações práticas
+   - Torna-se um recurso de estudo completo e autossuficiente
+
+Começa a processar agora e cria o notebook mais completo possível!
+```
+
+---
+
+## ✅ Passos Rápidos
+
+1. **Pressiona `Ctrl + I`** (abre o Composer)
+2. **Copia o comando acima** (seleciona tudo e `Ctrl + C`)
+3. **Cola no Composer** (`Ctrl + V`)
+4. **Pressiona Enter**
+5. **Aguarda** - o sistema vai processar tudo automaticamente!
+
+---
+
+## 📊 O Que Vai Acontecer
+
+O Cursor vai:
+- ✅ Validar os dois PDFs
+- ✅ Converter cada página em imagem
+- ✅ Analisar com o Tribunal (Observer, Clínico, Engenheiro)
+- ✅ Explicar tudo em detalhe
+- ✅ Resolver exercícios
+- ✅ Criar código Python
+- ✅ Adicionar referências
+- ✅ Criar o notebook `Radioterapia_Completo_Expert.ipynb`
+
+---
+
+## 📁 Onde Fica o Notebook
+
+O notebook será criado em:
+```
+C:\Users\joaop\Desktop\Cursor Projects\Agents-Tribunal\Radioterapia_Completo_Expert.ipynb
+```
+
+As imagens ficam em:
+```
+C:\Users\joaop\Desktop\Cursor Projects\Agents-Tribunal\notebook_images\
+```
+
+---
+
+**É só isso! Pressiona `Ctrl + I` e cola o comando!** 🚀
+
